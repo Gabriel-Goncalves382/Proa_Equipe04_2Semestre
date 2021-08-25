@@ -1,0 +1,66 @@
+p{    
+text-align: center;
+color: white;
+}
+
+body{
+background-color:black;
+}
+
+pre{
+color: white;
+border-color: white;
+border-radius: 5px;
+text-align: center;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+h2{
+    text-align: center;
+    color: white;
+}
+
+img{
+    margin:auto;
+    display:block
+} 
+
+a{
+    text-align: center;
+    display: block; margin: auto;
+    border: white 2px;
+    border-radius: 5px;
+    max-width: max-content;
+}
+
+hr{
+color:white
+}
+
+a:link{
+color:rgb(255, 255, 255);
+        background-color:transparent;
+        text-decoration:none;
+}
+
+a:active{
+color:turquoise;
+background-color:transparent;
+        text-decoration:none;
+}
+
+a:visited{
+    color:rgb(223, 207, 204);
+    background-color:transparent;
+    text-decoration:none;
+}
+
+a:hover{
+color:tomato;
+        background-color:transparent;
+        text-decoration:none;
+}

@@ -1,0 +1,67 @@
+p{
+border: 5px solid red;    
+border-radius: 15px;
+}
+
+body{
+background-color:white;
+}
+
+pre{
+text-emphasis-color: white;
+
+}
+
+
+
+    #primeirolink:link{
+        color:tomato;
+        background-color:transparent;
+        text-decoration:none;
+        }
+        #primeirolink:visited{
+            color:green;
+            background-color:transparent;
+            text-decoration:none;
+        }
+        
+        #primeirolink:active{
+        color: violet;
+        background-color: transparent;
+        text-decoration: underline;
+        
+        }
+        
+        #primeirolink:hover{
+        color:black;
+        background-color: transparent;
+        text-decoration: underline;
+        }
+
+
+
+    #segundolink:link{
+        color:yellow;
+        background-color:transparent;
+        text-decoration:none;
+    }
+    #segundolink:visited{
+        color:blueviolet;
+        background-color:transparent;
+        text-decoration:none;
+    }
+    
+    #segundolink:active{
+    color: teal;
+    background-color: transparent;
+    text-decoration: underline;
+    
+    }
+    
+    #segundolink:hover{
+    color:greenyellow;
+    background-color: transparent;
+    text-decoration: underline;
+    }
+
+
