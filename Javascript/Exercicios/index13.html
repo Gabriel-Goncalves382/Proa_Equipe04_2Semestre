@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Idade em dias</title>
+
+</head>
+<body>
+    <script>
+
+        var votosVal=parseInt(prompt("Digite a quantidade de votos validos:"));
+        var votosBr=parseInt(prompt("Digite a quantidade de votos brancos:"));
+        var votosNl=parseInt(prompt("Digite a quantidade de votos nulos:"));
+
+        var total = votosVal+votosBr+votosNl;
+        var porcVal =votosVal*100/total
+        var porcBr =votosBr*100/total
+        var porcNl =votosNl*100/total
+    alert("O total de habitantes no município é de:"+total+"."+"\r\n"+"Onde desses habitantes, houveram "+porcVal+"% de votos validos."+"\r\n"+porcBr+"% de votos brancos e "+porcNl+"% de votos nulos.");
+
+    </script>
+
+</body>
+
+</html>
