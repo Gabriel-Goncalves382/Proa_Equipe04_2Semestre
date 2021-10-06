@@ -3,31 +3,29 @@
 <html lang="pt-br">
 
 <head>
-
+    <meta name="author" content="Gabriel Henrique Gonçalves">
+    <meta name="keywords" content="JavaScript, Programação, Lógica">
+    <meta name="description" content="Exercicios de lógica com JavaScript">
     <meta charset="UTF-8">
-
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Área do Círculo</title>
-
+    <title>Exercício 22</title>
 </head>
-
 <body>
-
+    <!--  Efetuar o cálculo da quantidade de litros de combustível gasta em uma viagem, utilizando um
+          automóvel que faz 12 Km por litro. Para obter o cálculo, o usuário deve fornecer o tempo gasto
+          (TEMPO) e a velocidade média (VELOCIDADE) durante a viagem. Desta forma, será possível obter a
+          distância percorrida com a fórmula DISTANCIA ← TEMPO * VELOCIDADE. Possuindo o valor da
+          distância, basta calcular a quantidade de litros de combustível utilizada na viagem com a fórmula
+          LITROS_USADOS ← DISTANCIA / 12. Ao final, o programa deve apresentar os valores da velocidade
+          média (VELOCIDADE), tempo gasto na viagem (TEMPO), a distancia percorrida (DISTANCIA) e a
+          quantidade de litros (LITROS_USADOS) utilizada na viagem. -->
     <script>
-
-        var raio=parseFloat(prompt("Digite o valor do Raio:"));
-
-        var alt=parseFloat(prompt("Digite o valor da Altura:"));
-
-        var volume= (raio**2)*Math.PI*alt;
-
-        alert("O volume da lata corresponde a : "+volume);
-
+        var temp = parseInt(prompt("Digite o tempo gasto até o destino: "));
+        var vel = parseInt(prompt("Digite a velocidade média: "));
+        var dist = temp * vel;
+        var litrosUsados = dist / 12;
+        alert("Com a velocidade de "+vel+"km/h durante "+temp+" mins/h e a distancia de "+dist+"m/km a quantidade de litros usadas será de "+litrosUsados);
     </script>
-
 </body>
-
 </html>
