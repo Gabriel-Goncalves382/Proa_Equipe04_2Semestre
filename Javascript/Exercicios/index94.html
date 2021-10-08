@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br"></html>
+<head>
+    <meta name="author" content="Gabriel Henrique Gonçalves">
+    <meta name="keywords" content="JavaScript, Programação, Lógica">
+    <meta name="description" content="Exercicios de lógica com JavaScript">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=h2, initial-scale=1.0">
+    <title>Exercício 94</title>
+</head>
+<body>
+<!-- 
+    Elaborar um programa que efetue a leitura sucessiva de valores numéricos e apresente no final o 
+            total do somatório, a média aritmética e o total de valores lidos. O programa deve fazer as leituras 
+            dos valores enquanto o usuário estiver fornecendo valores positivos. Ou seja, o programa deve 
+            parar quando o usuário fornecer um valor negativo. Não se esqueça que o usuário pode entrar 
+            como primeiro número um número negativo, portanto, cuidado com a divisão por zero no cálculo da 
+            média.  -->
+
+    <script>
+
+        var i = 0 
+        var soma = 0
+        var valor = 0
+        do {
+            valor = parseInt(prompt("Informe um número: "));
+            if (valor < 0) {
+                break;
+            } else {
+                soma = soma + valor;
+                i++;
+            }
+        } while ( valor >= 0 );
+        alert("Abra o console para ver o resultado")
+        console.log(`Total de números: ${i}\nMédia: ${soma/i}\nSoma: ${soma}`);
+    </script>
+</body>
+
+</html>
